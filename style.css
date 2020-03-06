@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+html {
+  padding: 120px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+width: 2px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background:black; 
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:rgb(54, 56, 58); 
+}
+
+h1{
+  text-align: center;
+}
+
+#container1 {
+  float: left;
+  
+  width: 50%;
+  height: 1000px;
+  overflow: hidden;
+}
+
+#container2{
+  float: right;
+  width: 50%;
+  height: 1000px;
+  
+  overflow: hidden;
+}
+
+h1{
+float: top;
+}
+
+#editor {
+  width: 100%;
+  height: 900px;
+  resize: none;
+  overflow: auto;
+  border: none;
+  
+}
+
+#preview {
+  width: 100%;
+  height: 900px;
+  overflow: auto;
+  border-left: 0.3px solid lightgrey;
+  padding-left: 10px;
+}
+
+img {
+  width: 20%;
+}
